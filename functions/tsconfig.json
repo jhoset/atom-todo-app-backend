@@ -8,10 +8,11 @@
     "outDir": "lib",
     "sourceMap": true,
     "strict": true,
-    "target": "es2017"
+    "target": "es2017",
+    "skipLibCheck": true, //? Added due to issue  with node_modules/long/umd/index.d.ts  error TS1479
   },
   "compileOnSave": true,
   "include": [
     "src"
-  ]
+  ],
 }
